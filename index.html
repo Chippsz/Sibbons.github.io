@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/6c0dd74e8e.js"></script>
@@ -26,16 +27,16 @@
 
             <div class="nav-links">
                 <a onClick="jump('About')">About</a>
-                <a onClick="jump('About')">Projects</a>
-                <a onClick="jump('projects')">Contact</a>
+                <a onClick="jump('Projects')">Projects</a>
+                <a onClick="jump('Contact')">Contact</a>
                 <a onclick="jump('contact')">Resume</a>
             </div>
         </div>
         <div class="nav-Desktop">
             <a onClick="jump('About')">About</a>
-            <a onClick="jump('About')">Projects</a>
-            <a onClick="jump('projects')">Contact</a>
-            <a onclick="jump('contact')">Resume</a>
+            <a onClick="jump('Projects')">Projects</a>
+            <a onClick="jump('Contact')">Contact</a>
+            <a >Resume</a>
         </div>
     </div>
 
@@ -44,7 +45,7 @@
         <div class="icons">
             <i onclick="window.open('https://github.com/Sibbons','_blank')" class="fab fa-github-square"></i>
             <i onclick="window.open('https://www.linkedin.com/in/sibbons/','_blank')" class="fab fa-linkedin"></i>
-            <i class="fab fa-instagram"></i>
+            <i onClick="window.open('https://instagram.com/sibbzzs')" class="fab fa-instagram"></i>
         </div>
     </div>
     <div class="sectionHead" id="About">
@@ -52,6 +53,99 @@
         <div class=" lineUnder "></div>
     </div>
     <div class="aboutWrapper">
+        <div class="aboutMain">
+                <div class='aboutGradient'>
+
+                    </div>
+            <div class="aboutDescription">
+                <p>
+                    Currently I am a student studying Computer Science at Diablo Valley College. 
+                    I am in the process of transferring to either UC Santa Cruz or UC Irvine. 
+                    After 2 and a half years at DVC, I will be receiving an Associates in Science 
+                    for Computer Science. <br/> <br/>
+                    In my free time I play games at the arcade called Dance Dance Revolution. 
+                    I started playing after starting college and have turned it into a hobby. 
+                    The game itself provides a great source of cardio and an awesome community 
+                    with it. In this game, I have competed in 2 tournaments and will continue competing
+                    in more. 
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="sectionHead" id="Projects">
+            <p>Projects</p>
+            <div class=" lineUnder "></div>
+    </div>
+
+    <div class="projectWrapper">
+        <div class="project">
+            <div class="projectDemo">
+                <img src="pickFood4Me.gif" />
+            </div>
+            <div class="projectDescription">
+                <h1>PickFood4Me</h1>
+                <p>Web application that decides where the user should eat based on a location</p>
+                <h1 style="font-size: 30px">Technologies Used</h1>
+                <ul>
+                    <li>React</li>
+                    <li>Node/Express</li>
+                    <li>Google Maps API</li>
+                    <li>Yelp Fusion API</li>
+                </ul>
+                <div class="projectLinks">
+                        <a href="https://github.com/Sibbons/PickFood4Me" target="_blank" class="myButton">View Code &nbsp;<i class="fab fa-github"></i></a>
+                        <a href="https://www.pickfood4me.com/" target="_blank" class="red myButton">View Website &nbsp; <i class="fas fa-globe"></i></i></a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="project">
+                <div class="surveyPanda projectDemo">
+                    <img src="surveypanda.gif" />
+                </div>
+                <div class="projectDescription">
+                    <h1>SurveyPanda</h1>
+                    <p>Web application that decides where the users purchase credits and send surveys to collect data.</p>
+                    <h1 style="font-size: 30px">Technologies Used</h1>
+                    <ul>
+                        <li>React/Redux</li>
+                        <li>Node/Express</li>
+                        <li>Stripe API</li>
+                        <li>SendGrid API</li>
+                        <li>MongoDB</li>
+                    </ul>
+                    <div class="projectLinks" >
+                            <a href="https://github.com/Sibbons/Survey-Panda" target="_blank" class="myButton">View Code &nbsp;<i class="fab fa-github"></i></a>
+                            <a href="https://rocky-island-46767.herokuapp.com/" target="_blank" class="red myButton">View Website &nbsp; <i class="fas fa-globe"></i></i></a>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="project">
+                    <div class="uba projectDemo">
+                        <img src="ubaDemo.gif" />
+                    </div>
+                    <div class="projectDescription">
+                        <h1>UBA Website</h1>
+                        <p>Static webpage for a DVC club called Undergraduate Business Analytics.</p>
+                        <h1 style="font-size: 30px">Technologies Used</h1>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                        </ul>
+                        <div class="projectLinks" >
+                                <a href="https://github.com/Sibbons/UBA" target="_blank" class="myButton">View Code &nbsp;<i class="fab fa-github"></i></a>
+                                <a href="http://www.dvcuba.com/" target="_blank" class="red myButton">View Website &nbsp; <i class="fas fa-globe"></i></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+
 
     </div>
 
