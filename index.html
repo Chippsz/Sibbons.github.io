@@ -11,12 +11,13 @@
 
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/6c0dd74e8e.js"></script>
+    <link rel="shortcut icon" href="images/pfp.png"/>
 
-    <title>Document</title>
+    <title>Sibbons' Webpage</title>
 </head>
 
 <body>
-    <div class="navBar">
+    <div class="navBar">  
         <h1 class="name">Sibbons</h1>
         <div class="nav-right">
             <div class="burger">
@@ -29,19 +30,18 @@
                 <a onClick="jump('About')">About</a>
                 <a onClick="jump('Projects')">Projects</a>
                 <a onClick="jump('Contact')">Contact</a>
-                <a onclick="jump('contact')">Resume</a>
+                <a target="_blank" href="images/Resume .pdf">Resume</a>
             </div>
         </div>
         <div class="nav-Desktop">
             <a onClick="jump('About')">About</a>
             <a onClick="jump('Projects')">Projects</a>
             <a onClick="jump('Contact')">Contact</a>
-            <a >Resume</a>
-        </div>
+            <a target="_blank" href="images/Resume .pdf">Resume</a>        </div>
     </div>
 
     <div class="landingWrapper">
-        <img class="headshot" src="headshot.jpg" />
+        <img class="headshot" src="images/headshot.jpg" />
         <div class="icons">
             <i onclick="window.open('https://github.com/Sibbons','_blank')" class="fab fa-github-square"></i>
             <i onclick="window.open('https://www.linkedin.com/in/sibbons/','_blank')" class="fab fa-linkedin"></i>
@@ -81,7 +81,7 @@
     <div class="projectWrapper">
         <div class="project">
             <div class="projectDemo">
-                <img src="pickFood4Me.gif" />
+                <img src="images/pickFood4Me.gif" />
             </div>
             <div class="projectDescription">
                 <h1>PickFood4Me</h1>
@@ -103,7 +103,7 @@
 
         <div class="project">
                 <div class="surveyPanda projectDemo">
-                    <img src="surveypanda.gif" />
+                    <img src="images/surveypanda.gif" />
                 </div>
                 <div class="projectDescription">
                     <h1>SurveyPanda</h1>
@@ -127,7 +127,7 @@
 
             <div class="project">
                     <div class="uba projectDemo">
-                        <img src="ubaDemo.gif" />
+                        <img src="images/ubaDemo.gif" />
                     </div>
                     <div class="projectDescription">
                         <h1>UBA Website</h1>
@@ -149,7 +149,20 @@
 
     </div>
 
+    <div class="contactWrapper" id="Contact">
+        <div class="sectionHead" style="margin-bottom: 50px; padding-top: 100px;">
+            <p id="projects">Contact</p>
+            <div class=" lineUnder "></div>
+        </div>
 
+        <div class="contactEmails">
+            <p><strong>Email</strong>: <a target="_blank" href="mailto:SibbonsSS@gmail.com">SibbonsSS@gmail.com</a> </p>
+
+
+            <br />
+
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
