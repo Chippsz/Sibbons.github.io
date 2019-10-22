@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #23272A;
     color: white;
 }
@@ -29,13 +29,13 @@ body{
 }
 
 .nav-Desktop{
-    font-family: 'Ubuntu Mono';
-    font-weight: bold;
+    font-weight: 500;
     grid-area: navDesktop;
+    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     margin-right: 50px;
-    font-size: 25px;
+    font-size: 18px;
 }
 .nav-Desktop a{
     cursor: pointer;
@@ -49,7 +49,7 @@ body{
 }
   
 .landingWrapper{
-    margin-top: 150px;
+    margin-top: 90px;
     display: grid;
     grid-template-columns:1fr;
     justify-items: center;
@@ -62,7 +62,7 @@ body{
 
 
 .icons{
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 10px;
 }
 
@@ -75,20 +75,13 @@ body{
     color: #a1a1a1;
 }
 
-.sectionHead{
-    font-family: "Ubuntu";
+.sectionHead p{
+    text-align: center;
     font-size: 70px;
-    margin-left: 12%;
     margin-top: 400px;
-  
 }
 
-.lineUnder{
-    margin-top: 20px;
-    background-color: #5bc0be;
-    width: 120px;
-    height: 7px;
-}
+
 
 .aboutWrapper{
     margin:0px 5em 0px 12%;
@@ -107,7 +100,6 @@ body{
     flex-direction: column;
     align-content: end;
     font-size: 22px;
-    font-family: 'Roboto', sans-serif;
     margin: 14px 44px 0px 0px;
 }
 
@@ -120,8 +112,6 @@ body{
 
 .projectWrapper{
     margin:0px 7em 0px 12%;
-    font-family: 'Roboto', sans-serif;
-
 }
 
 .project{
@@ -187,12 +177,10 @@ body{
 }
 
 .contactWrapper{
-    margin-top: 700px;
+    text-align: center;
 }
 
 .contactEmails{
-    margin-left: 12%;
-    font-family: 'Ubuntu';
     font-size: 25px;
     padding-bottom: 200px;
 }
@@ -213,7 +201,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "name navRight";
-    margin-top: -50px;
+    margin-top: -60px;
 }
 .name{
     margin:0;
@@ -223,12 +211,11 @@ body{
 }
 
 .nav-right{
-    font-family: 'Ubuntu Mono';
     grid-area: navRight;
     display: grid;
     justify-content: end;
     margin-right: 10%;
-    margin-top: 110px;
+    margin-top: 145px;
 }
 
 .nav-links{
@@ -246,7 +233,6 @@ body{
     opacity: 0;
     cursor: default;
     font-size: 20px;
-    font-family: 'Ubuntu';
 }
 
 .toggle a {
@@ -290,20 +276,13 @@ body{
 }
 
 .sectionHead{
-    font-size: 40px;
-    margin-left: 12%;
+    font-size: 20px;
     padding-top: 100px;
 }
 
-.lineUnder{
-    margin-top: 10px;
-    width: 70px;
-    height: 4px;
-}
 .aboutWrapper{
     padding-top: 20px;
-    margin:0px 12% 0px 12%;
-    
+    margin:0px 10% 0px 10%;
 }
 .aboutMain{
     display: grid;
@@ -368,8 +347,6 @@ body{
     margin:0;
 }
 .contactEmails{
-    margin-left: 12%;
-    font-family: 'Ubuntu';
     font-size: 20px;
     padding-bottom: 200px;
 }
